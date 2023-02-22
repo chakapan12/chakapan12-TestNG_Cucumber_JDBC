@@ -28,27 +28,33 @@ public class TestLogin {
 //		Execute SQL Statement
 		ResultSet rs = stm.executeQuery("Select * from login_info");
 //		Get ResultSet
+		
+		MySqlUtils.printResultSet(rs);
 
 		/*
 		 * email=azucena.wisoky@yahoo.com, password=7acb47mkyejo5m, token=+UWV(+a_mY^c)a
 		 * email=johana.boehm@hotmail.com, password=mkx7y09q3wr, token=WUb!c#[ a\
 		 */
 
-		String email = "azucena.wisoky@yahoo.com";
-		String password = "7acb47mkyejo5m";
+		String email = "tristan.howe@hotmail.com";
+		String password = "62pteykk";
+		boolean isLoginSuccessful = false;
 
 		List<Map<Object, Object>> loginInfo = MySqlUtils.convertResultSetToListOfMap(rs);
 
 		for (Map<Object, Object> map : loginInfo) {
 
 			if (TokenGenarate.tokenGenerate(email, password).equals(map.get("token"))) {
+				isLoginSuccessful = true;
 				System.out.println("Login successful");
 				break;
 			}
 
+		}
+		
+		if(isLoginSuccessful==false) {
+			
 			System.out.println("Invalid Credential");
-			break;
-
 		}
 
 	}
