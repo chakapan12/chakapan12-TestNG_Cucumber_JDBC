@@ -12,8 +12,12 @@ Connecting to mySQL database using JDBC.
 
 --> Creating method to format and print result set on console by finding max width of each column then plus 3 character. 
 
---> Converting result set to list of map. --> Updating and inserting database with java faker. 
+--> Converting result set to list of map. 
 
---> Allowing to do database testing. --> Creating email, password and generate token. Then insert to database. 
+--> Updating and inserting database with java faker. 
 
---> Perform login testing by executing sql query to get all login_info and storing into list of map. Then generate token and validate with database.
+--> Allowing to do database testing. 
+
+--> Creating email, password and generate token. Then insert to database. 
+
+--> Performing login testing by executing sql query to get all login_info and storing into list of map. Then generate token from input email and password to validate with database.
