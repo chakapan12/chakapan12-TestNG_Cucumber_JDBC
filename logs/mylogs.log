@@ -1,0 +1,8 @@
+[INFO ] 2023-02-15 01:39:47.022 [main] LoginSteps - Navigate to my account page
+[INFO ] 2023-02-15 01:39:49.497 [main] LoginSteps - Enter user and password
+[INFO ] 2023-02-15 01:39:50.344 [main] LoginSteps - Click log in button
+[INFO ] 2023-02-15 01:39:52.139 [main] LoginSteps - Verify error message
+[INFO ] 2023-02-15 01:41:45.572 [main] LoginSteps - Navigate to my account page
+[INFO ] 2023-02-15 01:41:48.119 [main] LoginSteps - Enter user and password
+[INFO ] 2023-02-15 01:41:49.139 [main] LoginSteps - Click log in button
+[INFO ] 2023-02-15 01:41:51.492 [main] LoginSteps - Verify error message
