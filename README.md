@@ -11,6 +11,9 @@ Implement Page Object Model with Page Factory to create webelement repositories 
 Connecting to mySQL database using JDBC.
 
 --> Creating method to format and print result set on console by finding max width of each column then plus 3 character. 
+
 --> Converting result set to list of map. --> Updating and inserting database with java faker. 
+
 --> Allowing to do database testing. --> Creating email, password and generate token. Then insert to database. 
+
 --> Perform login testing by executing sql query to get all login_info and storing into list of map. Then generate token and validate with database.
